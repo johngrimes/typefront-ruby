@@ -17,5 +17,6 @@ Gem::Specification.new do |s|
     'spec/typefront_spec.rb']
   s.require_path = 'lib'
   s.add_dependency('rest-client', '>= 1.5.0')
+  s.add_dependency('json', '>= 1.4.3')
   s.add_development_dependency('rspec')
 end
