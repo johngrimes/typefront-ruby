@@ -2,7 +2,7 @@
 
 This is a wrapper around TypeFront's RESTful API for adding, removing, updating and getting details about your fonts being served by TypeFront.
 
-Checkout the TypeFront API Documentation.
+Check out the TypeFront API Documentation.
 
 ## Installation
 
