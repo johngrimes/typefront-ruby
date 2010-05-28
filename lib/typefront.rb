@@ -4,7 +4,7 @@ require 'json'
 
 class TypeFront
   VERSION = '0.1.0'
-  DOMAIN = 'http://typefront.local:3000'
+  DOMAIN = 'http://typefront.com'
 
   def initialize(email, password)
     @default_options = {
