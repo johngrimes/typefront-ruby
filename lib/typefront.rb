@@ -2,8 +2,6 @@ require 'rubygems'
 require 'restclient'
 require 'json'
 
-class TypeFrontException < Exception; end
-
 class TypeFront
   VERSION = '0.1.0'
   DOMAIN = 'http://typefront.local:3000'
@@ -47,7 +45,7 @@ class TypeFront
 
   def method_missing(name, *args)
     if [:get, :post, :delete].include?(name)
-      send(:send_request, name, args[0], args[1] ? args[1] : {})
+      send(:send_request, name, args[0], args[1] || {})
     else
       super
     end
