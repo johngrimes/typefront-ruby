@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'typefront'
-  s.version = '0.1.0'
+  s.version = '0.1.1'
   s.author = 'Small Spark'
   s.email = 'contact@smallspark.com.au'
   s.homepage = 'http://github.com/smallspark/typefront-ruby'
@@ -19,4 +19,5 @@ Gem::Specification.new do |s|
   s.add_dependency('rest-client', '>= 1.5.0')
   s.add_dependency('json', '>= 1.4.3')
   s.add_development_dependency('rspec')
+  s.add_development_dependency('mocha')
 end

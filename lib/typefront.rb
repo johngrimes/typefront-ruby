@@ -3,7 +3,7 @@ require 'restclient'
 require 'json'
 
 class TypeFront
-  VERSION = '0.1.0'
+  VERSION = '0.1.1'
   DOMAIN = 'http://typefront.com'
 
   def initialize(email, password)
