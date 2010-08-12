@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'typefront'
-  s.version = '0.1.1'
+  s.version = '0.2.1'
   s.author = 'Small Spark'
   s.email = 'contact@smallspark.com.au'
   s.homepage = 'http://github.com/smallspark/typefront-ruby'

@@ -33,6 +33,14 @@ In your environment.rb:
 
 `TypeFront.remove_font(101)`
 
+### Activate a font format
+
+`TypeFront.activate_format(101, 301)`
+
+### Disable a font format
+
+`TypeFront.disable_format(101, 301)`
+
 ### Add new allowed domain
 
 `TypeFront.add_domain(101, 'http://somedomain.com')`

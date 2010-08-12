@@ -38,6 +38,20 @@ describe TypeFront do
     end
   end
 
+  describe 'activate_format' do
+    it 'should run successfully' do
+      RestClient::Resource.any_instance.expects(:put)
+      @typefront.activate_format(101, 301)
+    end
+  end
+
+  describe 'disable_format' do
+    it 'should run successfully' do
+      RestClient::Resource.any_instance.expects(:put)
+      @typefront.disable_format(101, 301)
+    end
+  end
+
   describe 'add_domain' do
     it 'should run successfully' do
       RestClient::Resource.any_instance.expects(:post)
