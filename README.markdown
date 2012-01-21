@@ -1,4 +1,4 @@
-# TypeFront for Ruby and Ruby on Rails
+# TypeFront for Ruby
 
 This is a wrapper around TypeFront's RESTful API for adding, removing, updating and getting details about your fonts being served by [TypeFront](http://typefront.com).
 
@@ -8,46 +8,41 @@ Check out the [TypeFront API Documentation](http://typefront.com/documentation) 
 
 `gem install typefront`
 
-## Configuration
+## Setup
 
-In your environment.rb:
-
-`TypeFront.settings = { 
-  :email => 'YOUR EMAIL HERE', 
-  :password => 'YOUR PASSWORD HERE'
-}`
+`typefront = TypeFront.new('login', 'password')`
 
 ### Getting a listing of your fonts
 
-`TypeFront.fonts`
+`typefront.fonts`
 
 ### Getting the details of a font
 
-`TypeFront.font_details(101)`
+`typefront.font_details(101)`
 
 ### Uploading a new font
 
-`TypeFront.upload_font(File.new('somefont.ttf'))`
+`typefront.upload_font(File.new('somefont.ttf'))`
 
 ### Remove font
 
-`TypeFront.remove_font(101)`
+`typefront.remove_font(101)`
 
 ### Activate a font format
 
-`TypeFront.activate_format(101, 301)`
+`typefront.activate_format(101, 301)`
 
 ### Disable a font format
 
-`TypeFront.disable_format(101, 301)`
+`typefront.disable_format(101, 301)`
 
 ### Add new allowed domain
 
-`TypeFront.add_domain(101, 'http://somedomain.com')`
+`typefront.add_domain(101, 'http://somedomain.com')`
 
 ### Remove allowed domain
 
-`TypeFront.remove_domain(101, 201)`
+`typefront.remove_domain(101, 201)`
 
 ---
 
