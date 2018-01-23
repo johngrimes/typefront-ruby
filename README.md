@@ -1,5 +1,7 @@
 # TypeFront for Ruby
 
+IMPORTANT NOTE: This repository is no longer actively maintained.
+
 This is a wrapper around TypeFront's RESTful API for adding, removing, updating and getting details about your fonts being served by [TypeFront](http://typefront.com).
 
 Check out the [TypeFront API Documentation](http://typefront.com/documentation) for more information.
