@@ -48,4 +48,4 @@ Check out the [TypeFront API Documentation](http://typefront.com/documentation) 
 
 ---
 
-Copyright (c) 2010 Small Spark Pty Ltd, released under the MIT license
+Copyright (c) 2010 Small Spark Pty Ltd, released under the Apache License 2.0.
